@@ -34,3 +34,8 @@ keymap.set("n", "<leader>rs", ":LspRestart<CR>")
 -- mind.nvim (i made these HA)
 keymap.set("n", "<leader>mc", ":MindOpenMain<CR>")
 keymap.set("n", "<leader>md", ":MindClose<CR>")
+
+keymap.set("n", "<leader>to", ":TransparentEnable<CR>")
+keymap.set("n", "<leader>tc", ":TransparentDisable<CR>")
+
+keymap.set("n", ":", "<cmd>FineCmdline<CR>", { noremap = true })
